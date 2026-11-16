@@ -1,0 +1,42 @@
+# ===== CMake / Ninja 编译产物 =====
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.ninja_log
+.ninja_deps
+.ninja_log
+
+# ===== 编译生成的二进制 / 中间文件 =====
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.a
+*.lib
+*.exe
+*.out
+
+# ===== CMake / clangd 索引缓存 =====
+.cmake/
+index-*.json
+.cache/
+
+# ===== VS Code 本地缓存（保留 .vscode 配置本身）=====
+.vscode/ipch/
+.vscode/.browse*
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 早期测试残留（非培训内容）=====
+check.cpp
+git-demo/
