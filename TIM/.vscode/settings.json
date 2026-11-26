@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.defines": [
+        "STM32F103xB",
+        "USE_HAL_DRIVER"
+    ],
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/Core/Inc/**",
+        "${workspaceFolder}/Drivers/CMSIS/Core/Include/**",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include/**",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/**"
+    ],
+    "C_Cpp.default.compilerPath": "C:/Users/19480/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe"
+}
